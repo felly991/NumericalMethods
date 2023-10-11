@@ -33,6 +33,7 @@ namespace MVkyrsachDD.Methods
         public void Print()
         {
             Console.WriteLine($"Заданное уравнение x^2 - sin(x) = 0 \n" +
+                $"Решим его методом хорд \n" +
                 $"Имеет корень x = {Hord()} \n" +
                 $"Количество итераций для поиска корня = {iter}");
         }

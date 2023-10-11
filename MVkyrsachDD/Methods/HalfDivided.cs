@@ -43,6 +43,7 @@ namespace MVkyrsachDD.Methods
         public void Print()
         {
             Console.WriteLine($"Заданное уравнение x^2 - sin(x) = 0 \n" +
+                $"Решим его методом половинного деления \n" +
                 $"Имеет корень x = {HalfDiv()} \n" +
                 $"Количество итераций для поиска корня = {iter}");
         }
